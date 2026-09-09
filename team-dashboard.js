@@ -695,8 +695,7 @@ function He({group:e,onSelect:t,updateTaskManual:n,instagramPlan:r,setInstagramP
 (0,A.jsxs)(`strong`,{className:a?`bgf-content-cell`:``,children:[
 (0,A.jsx)(`span`,{children:Wt(e.title)}),a&&e.instagramEnabled&&
 (0,A.jsx)(`img`,{className:`bgf-instagram-symbol`,src:`./instagram-logo.png`,alt:`Instagram`}),a&&e.coverageType===`촬영`&&(e.shootingDate||e.shootingLocation)&&
-(0,A.jsxs)(`em`,{className:`shooting-meta-pill`,children:[`📸 `,e.shootingDate,` `,e.shootingLocation,e.instagramEnabled&&
-(0,A.jsx)(`img`,{className:`bgf-instagram-symbol bgf-instagram-symbol-inline`,src:`./instagram-logo.png`,alt:`Instagram`})]})]}),a&&
+(0,A.jsx)(`em`,{className:`shooting-meta-pill`,children:`📸 ${e.shootingDate||``} ${e.shootingLocation||``}`.trim()})]}),a&&
 (0,A.jsx)(`span`,{className:`coverage-cell`,onClick:e=>e.stopPropagation(),children:
 (0,A.jsxs)(`select`,{value:e.coverageType||`서면 인터뷰`,onChange:t=>n(e.id,{coverageType:t.target.value,completedProgressIndex:Math.min(jt(e),St(t.target.value).length-1)}),"aria-label":`취재/촬영 유형`,children:[
 (0,A.jsx)(`option`,{value:`촬영`,children:`촬영`}),
