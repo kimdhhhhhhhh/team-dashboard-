@@ -439,6 +439,43 @@ textarea {
   background: #dff3fa;
 }
 
+.dongguk-add-row-button {
+  width: calc(100% - 58px);
+  height: 34px;
+  margin: 8px 0 0 58px;
+  color: #21677f;
+  background: var(--blue-strip);
+  border: 1px dashed #9fd9eb;
+  border-radius: 8px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.dongguk-add-row-button:hover {
+  background: #dff3fa;
+}
+
+.dongguk-modal-delete-row {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.dongguk-delete-button {
+  color: #9a9fa3;
+  border: 0;
+  background: transparent;
+  padding: 3px 2px;
+  font-size: 11px;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.dongguk-delete-button:hover {
+  color: #bd4a42;
+}
+
 /* Visually close completed or already-published campaigns. */
 .task-row.campaign-complete {
   color: #a2a6aa;
@@ -1111,6 +1148,11 @@ body.addon-page-active .dashboard-main > :not(.header):not(.page-tabs):not(.addo
 .category-moment {
   color: #a3412f;
   background: #ffebe5;
+}
+
+.category-wereview {
+  color: #4850a8;
+  background: #eceeff;
 }
 
 .workflow-table-wrap,
