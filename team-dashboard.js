@@ -928,7 +928,6 @@ r&&
 (0,A.jsx)(`input`,{type:`checkbox`,checked:!!e.instagramEnabled,onChange:t=>n(e.id,{instagramEnabled:t.target.checked})}),
 (0,A.jsx)(`span`,{children:`인스타그램`})]}),
 (e.instagramEnabled&&(0,A.jsxs)(`label`,{className:`bgf-instagram-date`,children:[
-(0,A.jsx)(`span`,{children:`발행일`}),
 (0,A.jsx)(`input`,{type:`date`,value:e.instagramPublishDate||``,onChange:t=>n(e.id,{instagramPublishDate:t.target.value})})]}))]}),
 (0,A.jsxs)(`div`,{children:[
 (0,A.jsx)(`span`,{children:`콘텐츠 내용`}),

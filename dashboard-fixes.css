@@ -850,22 +850,20 @@ textarea {
   accent-color: #e25293;
 }
 
-.bgf-instagram-controls {
+.bgf-detail-panel .bgf-instagram-controls {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 8px 12px;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: 10px;
 }
 
 .bgf-instagram-date {
-  display: grid;
-  grid-template-columns: auto 150px;
+  display: inline-flex;
   align-items: center;
-  gap: 8px;
+  flex: none;
+  width: 150px;
   min-height: 34px;
-  color: #a92f6b;
-  font-size: 13px;
-  font-weight: 800;
 }
 
 .bgf-instagram-date input {
